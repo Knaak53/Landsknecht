@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Module>
+    <Name value = "Landsknecht"/>
+    <Id value = "Landsknecht"/>
+    <Version value = "1.0"/>
+    <SingleplayerModule value="false"/>
+    <MultiplayerModule value="true"/>
+    <DependedModules/>
+    <SubModules>
+        <SubModule>
+            <Name value = "Foundation"/>
+            <Version value = "1.0"/>
+            <DLLName value = "Kingdoms.Foundation.dll"/>
+            <SubModuleClassType value = "MyNameSpace.MySubModule"/>
+            <Tags>
+                <Tag key="DedicatedServerType" value ="none" />
+                <Tag key="IsNoRenderModeElement" value ="false" />
+            </Tags>
+        </SubModule>
+    </SubModules>
+   
+    <Xmls>
+        <!--
+        <XmlNode>                
+            <XmlName type="1" id="Items" path="spitems"/>
+        </XmlNode>  
+        <XmlNode>                
+            <XmlName type="1" id="SPCultures" path="spcultures"/>
+        </XmlNode>
+        <XmlNode>                
+            <XmlName type="1" id="NPCCharacters" path="spnpccharacters"/>
+        </XmlNode>
+       -->
+    </Xmls>
+</Module>
