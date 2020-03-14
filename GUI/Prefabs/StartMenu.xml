@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Prefab>
+    <Constants>
+        <!-- Insert Summary Here -->
+    </Constants>
+    <Variables>
+        <!-- Insert Summary Here -->
+    </Variables>
+    <VisualDefinitions>
+        <!-- Insert Summary Here -->
+    </VisualDefinitions>
+    <Window>
+        <Widget WidthSizePolicy="StretchToParent" HeightSizePolicy="StretchToParent" Brush="Frame1Brush">
+            <Children>
+                <TextWidget WidthSizePolicy="StretchToParent" HeightSizePolicy="CoverChildren" VerticalAlignment="Top" HorizontalAlignment="Center" MarginTop="50" Text="Landsknecht v0.1 - village idiot" Brush="CenterAlignedLargeFont" />
+            </Children>
+        </Widget>
+    </Window>
+</Prefab>

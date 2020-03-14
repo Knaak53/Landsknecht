@@ -4,4 +4,172 @@
     <TargetFramework>netstandard2.0</TargetFramework>
   </PropertyGroup>
 
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Build Mod|AnyCPU' ">
+    <IntermediateOutputPath>obj\Release\netstandard2.0</IntermediateOutputPath>
+    <DebugType></DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin</OutputPath>
+    <DefineConstants>TRACE;RELEASE;NETSTANDARD;NETSTANDARD2_0</DefineConstants>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="TaleWorlds.Core">
+      <HintPath>..\..\.steam\debian-installation\steamapps\common\Mount &amp; Blade II Bannerlord - Beta\bin\Win64_Shipping_Client\TaleWorlds.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="TaleWorlds.Engine">
+      <HintPath>..\..\.steam\debian-installation\steamapps\common\Mount &amp; Blade II Bannerlord - Beta\bin\Win64_Shipping_Client\TaleWorlds.Engine.dll</HintPath>
+    </Reference>
+    <Reference Include="TaleWorlds.Engine.GauntletUI">
+      <HintPath>..\..\.steam\debian-installation\steamapps\common\Mount &amp; Blade II Bannerlord - Beta\bin\Win64_Shipping_Client\TaleWorlds.Engine.GauntletUI.dll</HintPath>
+    </Reference>
+    <Reference Include="TaleWorlds.GauntletUI.Data">
+      <HintPath>..\..\.steam\debian-installation\steamapps\common\Mount &amp; Blade II Bannerlord - Beta\bin\Win64_Shipping_Client\TaleWorlds.GauntletUI.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="TaleWorlds.GauntletUI">
+      <HintPath>..\..\.steam\debian-installation\steamapps\common\Mount &amp; Blade II Bannerlord - Beta\bin\Win64_Shipping_Client\TaleWorlds.GauntletUI.dll</HintPath>
+    </Reference>
+    <Reference Include="TaleWorlds.GauntletUI.ExtraWidgets">
+      <HintPath>..\..\.steam\debian-installation\steamapps\common\Mount &amp; Blade II Bannerlord - Beta\bin\Win64_Shipping_Client\TaleWorlds.GauntletUI.ExtraWidgets.dll</HintPath>
+    </Reference>
+    <Reference Include="TaleWorlds.GauntletUI.PrefabSystem">
+      <HintPath>..\..\.steam\debian-installation\steamapps\common\Mount &amp; Blade II Bannerlord - Beta\bin\Win64_Shipping_Client\TaleWorlds.GauntletUI.PrefabSystem.dll</HintPath>
+    </Reference>
+    <Reference Include="TaleWorlds.GauntletUI.TooltipExtensions">
+      <HintPath>..\..\.steam\debian-installation\steamapps\common\Mount &amp; Blade II Bannerlord - Beta\bin\Win64_Shipping_Client\TaleWorlds.GauntletUI.TooltipExtensions.dll</HintPath>
+    </Reference>
+    <Reference Include="BouncyCastle.Crypto">
+      <HintPath>..\..\.steam\debian-installation\steamapps\common\Mount &amp; Blade II Bannerlord - Beta\bin\Win64_Shipping_Client\BouncyCastle.Crypto.dll</HintPath>
+    </Reference>
+    <Reference Include="Mono.Cecil">
+      <HintPath>..\..\.steam\debian-installation\steamapps\common\Mount &amp; Blade II Bannerlord - Beta\bin\Win64_Shipping_Client\Mono.Cecil.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>..\..\.steam\debian-installation\steamapps\common\Mount &amp; Blade II Bannerlord - Beta\bin\Win64_Shipping_Client\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="Renci.SshNet">
+      <HintPath>..\..\.steam\debian-installation\steamapps\common\Mount &amp; Blade II Bannerlord - Beta\bin\Win64_Shipping_Client\Renci.SshNet.dll</HintPath>
+    </Reference>
+    <Reference Include="SshNet.Security.Cryptography">
+      <HintPath>..\..\.steam\debian-installation\steamapps\common\Mount &amp; Blade II Bannerlord - Beta\bin\Win64_Shipping_Client\SshNet.Security.Cryptography.dll</HintPath>
+    </Reference>
+    <Reference Include="Steamworks.NET">
+      <HintPath>..\..\.steam\debian-installation\steamapps\common\Mount &amp; Blade II Bannerlord - Beta\bin\Win64_Shipping_Client\Steamworks.NET.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Configuration.ConfigurationManager">
+      <HintPath>..\..\.steam\debian-installation\steamapps\common\Mount &amp; Blade II Bannerlord - Beta\bin\Win64_Shipping_Client\System.Configuration.ConfigurationManager.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Numerics.Vectors">
+      <HintPath>..\..\.steam\debian-installation\steamapps\common\Mount &amp; Blade II Bannerlord - Beta\bin\Win64_Shipping_Client\System.Numerics.Vectors.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Security.Cryptography.ProtectedData">
+      <HintPath>..\..\.steam\debian-installation\steamapps\common\Mount &amp; Blade II Bannerlord - Beta\bin\Win64_Shipping_Client\System.Security.Cryptography.ProtectedData.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Security.Permissions">
+      <HintPath>..\..\.steam\debian-installation\steamapps\common\Mount &amp; Blade II Bannerlord - Beta\bin\Win64_Shipping_Client\System.Security.Permissions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Text.Encoding.CodePages">
+      <HintPath>..\..\.steam\debian-installation\steamapps\common\Mount &amp; Blade II Bannerlord - Beta\bin\Win64_Shipping_Client\System.Text.Encoding.CodePages.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.XPath.XmlDocument">
+      <HintPath>..\..\.steam\debian-installation\steamapps\common\Mount &amp; Blade II Bannerlord - Beta\bin\Win64_Shipping_Client\System.Xml.XPath.XmlDocument.dll</HintPath>
+    </Reference>
+    <Reference Include="TaleWorlds.BattlEye.Client">
+      <HintPath>..\..\.steam\debian-installation\steamapps\common\Mount &amp; Blade II Bannerlord - Beta\bin\Win64_Shipping_Client\TaleWorlds.BattlEye.Client.dll</HintPath>
+    </Reference>
+    <Reference Include="TaleWorlds.Core.ViewModelCollection">
+      <HintPath>..\..\.steam\debian-installation\steamapps\common\Mount &amp; Blade II Bannerlord - Beta\bin\Win64_Shipping_Client\TaleWorlds.Core.ViewModelCollection.dll</HintPath>
+    </Reference>
+    <Reference Include="TaleWorlds.DataCenter">
+      <HintPath>..\..\.steam\debian-installation\steamapps\common\Mount &amp; Blade II Bannerlord - Beta\bin\Win64_Shipping_Client\TaleWorlds.DataCenter.dll</HintPath>
+    </Reference>
+    <Reference Include="TaleWorlds.Diamond.AccessProvider.Steam">
+      <HintPath>..\..\.steam\debian-installation\steamapps\common\Mount &amp; Blade II Bannerlord - Beta\bin\Win64_Shipping_Client\TaleWorlds.Diamond.AccessProvider.Steam.dll</HintPath>
+    </Reference>
+    <Reference Include="TaleWorlds.Diamond.AccessProvider.Test">
+      <HintPath>..\..\.steam\debian-installation\steamapps\common\Mount &amp; Blade II Bannerlord - Beta\bin\Win64_Shipping_Client\TaleWorlds.Diamond.AccessProvider.Test.dll</HintPath>
+    </Reference>
+    <Reference Include="TaleWorlds.Diamond">
+      <HintPath>..\..\.steam\debian-installation\steamapps\common\Mount &amp; Blade II Bannerlord - Beta\bin\Win64_Shipping_Client\TaleWorlds.Diamond.dll</HintPath>
+    </Reference>
+    <Reference Include="TaleWorlds.DotNet.AutoGenerated">
+      <HintPath>..\..\.steam\debian-installation\steamapps\common\Mount &amp; Blade II Bannerlord - Beta\bin\Win64_Shipping_Client\TaleWorlds.DotNet.AutoGenerated.dll</HintPath>
+    </Reference>
+    <Reference Include="TaleWorlds.DotNet">
+      <HintPath>..\..\.steam\debian-installation\steamapps\common\Mount &amp; Blade II Bannerlord - Beta\bin\Win64_Shipping_Client\TaleWorlds.DotNet.dll</HintPath>
+    </Reference>
+    <Reference Include="TaleWorlds.Engine.AutoGenerated">
+      <HintPath>..\..\.steam\debian-installation\steamapps\common\Mount &amp; Blade II Bannerlord - Beta\bin\Win64_Shipping_Client\TaleWorlds.Engine.AutoGenerated.dll</HintPath>
+    </Reference>
+    <Reference Include="TaleWorlds.InputSystem">
+      <HintPath>..\..\.steam\debian-installation\steamapps\common\Mount &amp; Blade II Bannerlord - Beta\bin\Win64_Shipping_Client\TaleWorlds.InputSystem.dll</HintPath>
+    </Reference>
+    <Reference Include="TaleWorlds.Library">
+      <HintPath>..\..\.steam\debian-installation\steamapps\common\Mount &amp; Blade II Bannerlord - Beta\bin\Win64_Shipping_Client\TaleWorlds.Library.dll</HintPath>
+    </Reference>
+    <Reference Include="TaleWorlds.Localization">
+      <HintPath>..\..\.steam\debian-installation\steamapps\common\Mount &amp; Blade II Bannerlord - Beta\bin\Win64_Shipping_Client\TaleWorlds.Localization.dll</HintPath>
+    </Reference>
+    <Reference Include="TaleWorlds.MountAndBlade.AutoGenerated">
+      <HintPath>..\..\.steam\debian-installation\steamapps\common\Mount &amp; Blade II Bannerlord - Beta\bin\Win64_Shipping_Client\TaleWorlds.MountAndBlade.AutoGenerated.dll</HintPath>
+    </Reference>
+    <Reference Include="TaleWorlds.MountAndBlade.Diamond">
+      <HintPath>..\..\.steam\debian-installation\steamapps\common\Mount &amp; Blade II Bannerlord - Beta\bin\Win64_Shipping_Client\TaleWorlds.MountAndBlade.Diamond.dll</HintPath>
+    </Reference>
+    <Reference Include="TaleWorlds.MountAndBlade">
+      <HintPath>..\..\.steam\debian-installation\steamapps\common\Mount &amp; Blade II Bannerlord - Beta\bin\Win64_Shipping_Client\TaleWorlds.MountAndBlade.dll</HintPath>
+    </Reference>
+    <Reference Include="TaleWorlds.MountAndBlade.GauntletUI">
+      <HintPath>..\..\.steam\debian-installation\steamapps\common\Mount &amp; Blade II Bannerlord - Beta\bin\Win64_Shipping_Client\TaleWorlds.MountAndBlade.GauntletUI.dll</HintPath>
+    </Reference>
+    <Reference Include="TaleWorlds.MountAndBlade.GauntletUI.Widgets">
+      <HintPath>..\..\.steam\debian-installation\steamapps\common\Mount &amp; Blade II Bannerlord - Beta\bin\Win64_Shipping_Client\TaleWorlds.MountAndBlade.GauntletUI.Widgets.dll</HintPath>
+    </Reference>
+    <Reference Include="TaleWorlds.MountAndBlade.Helpers">
+      <HintPath>..\..\.steam\debian-installation\steamapps\common\Mount &amp; Blade II Bannerlord - Beta\bin\Win64_Shipping_Client\TaleWorlds.MountAndBlade.Helpers.dll</HintPath>
+    </Reference>
+    <Reference Include="TaleWorlds.MountAndBlade.Test">
+      <HintPath>..\..\.steam\debian-installation\steamapps\common\Mount &amp; Blade II Bannerlord - Beta\bin\Win64_Shipping_Client\TaleWorlds.MountAndBlade.Test.dll</HintPath>
+    </Reference>
+    <Reference Include="TaleWorlds.MountAndBlade.View">
+      <HintPath>..\..\.steam\debian-installation\steamapps\common\Mount &amp; Blade II Bannerlord - Beta\bin\Win64_Shipping_Client\TaleWorlds.MountAndBlade.View.dll</HintPath>
+    </Reference>
+    <Reference Include="TaleWorlds.MountAndBlade.ViewModelCollection">
+      <HintPath>..\..\.steam\debian-installation\steamapps\common\Mount &amp; Blade II Bannerlord - Beta\bin\Win64_Shipping_Client\TaleWorlds.MountAndBlade.ViewModelCollection.dll</HintPath>
+    </Reference>
+    <Reference Include="TaleWorlds.Network">
+      <HintPath>..\..\.steam\debian-installation\steamapps\common\Mount &amp; Blade II Bannerlord - Beta\bin\Win64_Shipping_Client\TaleWorlds.Network.dll</HintPath>
+    </Reference>
+    <Reference Include="TaleWorlds.PlatformService">
+      <HintPath>..\..\.steam\debian-installation\steamapps\common\Mount &amp; Blade II Bannerlord - Beta\bin\Win64_Shipping_Client\TaleWorlds.PlatformService.dll</HintPath>
+    </Reference>
+    <Reference Include="TaleWorlds.PlatformService.Steam">
+      <HintPath>..\..\.steam\debian-installation\steamapps\common\Mount &amp; Blade II Bannerlord - Beta\bin\Win64_Shipping_Client\TaleWorlds.PlatformService.Steam.dll</HintPath>
+    </Reference>
+    <Reference Include="TaleWorlds.PlayerServices">
+      <HintPath>..\..\.steam\debian-installation\steamapps\common\Mount &amp; Blade II Bannerlord - Beta\bin\Win64_Shipping_Client\TaleWorlds.PlayerServices.dll</HintPath>
+    </Reference>
+    <Reference Include="TaleWorlds.PSAI">
+      <HintPath>..\..\.steam\debian-installation\steamapps\common\Mount &amp; Blade II Bannerlord - Beta\bin\Win64_Shipping_Client\TaleWorlds.PSAI.dll</HintPath>
+    </Reference>
+    <Reference Include="TaleWorlds.SaveSystem">
+      <HintPath>..\..\.steam\debian-installation\steamapps\common\Mount &amp; Blade II Bannerlord - Beta\bin\Win64_Shipping_Client\TaleWorlds.SaveSystem.dll</HintPath>
+    </Reference>
+    <Reference Include="TaleWorlds.Starter.DotNetCore">
+      <HintPath>..\..\.steam\debian-installation\steamapps\common\Mount &amp; Blade II Bannerlord - Beta\bin\Win64_Shipping_Client\TaleWorlds.Starter.DotNetCore.dll</HintPath>
+    </Reference>
+    <Reference Include="TaleWorlds.Starter.Library">
+      <HintPath>..\..\.steam\debian-installation\steamapps\common\Mount &amp; Blade II Bannerlord - Beta\bin\Win64_Shipping_Client\TaleWorlds.Starter.Library.dll</HintPath>
+    </Reference>
+    <Reference Include="TaleWorlds.TwoDimension">
+      <HintPath>..\..\.steam\debian-installation\steamapps\common\Mount &amp; Blade II Bannerlord - Beta\bin\Win64_Shipping_Client\TaleWorlds.TwoDimension.dll</HintPath>
+    </Reference>
+    <Reference Include="TaleWorlds.TwoDimension.Standalone">
+      <HintPath>..\..\.steam\debian-installation\steamapps\common\Mount &amp; Blade II Bannerlord - Beta\bin\Win64_Shipping_Client\TaleWorlds.TwoDimension.Standalone.dll</HintPath>
+    </Reference>
+    <Reference Include="TaleWorlds.WebServices.Library">
+      <HintPath>..\..\.steam\debian-installation\steamapps\common\Mount &amp; Blade II Bannerlord - Beta\bin\Win64_Shipping_Client\TaleWorlds.WebServices.Library.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="src\" />
+  </ItemGroup>
 </Project>

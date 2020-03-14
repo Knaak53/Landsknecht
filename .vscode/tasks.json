@@ -6,7 +6,7 @@
         {
             "label": "build dll",
             "type": "shell",
-            "command": "dotnet build -o ${workspaceRoot}/bin/",
+            "command": "dotnet build -o ${workspaceRoot}/bin/ ",
             "problemMatcher": []
         }
     ]

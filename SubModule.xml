@@ -8,10 +8,10 @@
     <DependedModules/>
     <SubModules>
         <SubModule>
-            <Name value = "Foundation"/>
+            <Name value = "Landsknecht"/>
             <Version value = "1.0"/>
-            <DLLName value = "Kingdoms.Foundation.dll"/>
-            <SubModuleClassType value = "MyNameSpace.MySubModule"/>
+            <DLLName value = "Landsknecht.dll"/>
+            <SubModuleClassType value = "Landsknech.SubModule"/>
             <Tags>
                 <Tag key="DedicatedServerType" value ="none" />
                 <Tag key="IsNoRenderModeElement" value ="false" />
